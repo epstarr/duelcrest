@@ -4,13 +4,14 @@ import { Hero } from '../hero';
 
 @Component({
   selector: 'hero',
-  templateUrl: 'app/templates/hero.html'
+  templateUrl: 'app/templates/hero.html',
+  styleUrls: ['app/styles/hero.css']
 })
 export class HeroComponent  { 
 	//set heroes property equal to HEROES array data
 	heroes = HEROES;
 	//declare selectedHero property to match Hero class from ../hero
-	selectedHero: Hero;
+	selectedHero1: Hero;
 
 }
 //Array of her data used for HeroComponent
