@@ -1,18 +1,10 @@
 import { Component } from '@angular/core';
-export class Hero {
-	name: string;
-	hp: number;
-	atk: number;
-	spd: number;
-	def: number;
-	res: number;
-	weaponMight: number;
-}
+import { Hero } from '../hero';
 
 
 @Component({
   selector: 'hero',
-  template: `<h1>Choose Your Heroes</h1>
+  template: `
   <div *ngIf="selectedHero">
   <img src="../images/Icon_Portrait_{{selectedHero.name}}.png" />
   <h2>Hero: {{selectedHero.name}}</h2>
