@@ -23,6 +23,7 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "angular-cli": {},
   "dependencies": {
     "@angular/common": "~2.4.0",
     "@angular/compiler": "~2.4.0",
