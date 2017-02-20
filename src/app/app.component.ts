@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Hero } from './hero';
 
 
 @Component({
@@ -12,5 +11,3 @@ import { Hero } from './hero';
 export class AppComponent  { 
 
 }
-
-
