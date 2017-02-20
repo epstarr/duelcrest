@@ -1,22 +1,28 @@
 import { Component } from '@angular/core';
 import { Hero } from '../hero';
+import {HeroService} from '../services/hero.service';
+import {OnInit} from '@angular/core';
 
 
 @Component({
   selector: 'hero',
   templateUrl: 'app/templates/hero.html',
-  styleUrls: ['app/styles/hero.css']
+  styleUrls: ['app/styles/hero.css'],
+  providers: [HeroService]
 })
-export class HeroComponent  { 
+export class HeroComponent implements OnInit { 
+	ngOnInit(): void {
+		this.getHeroes();
+	}
 	//set heroes property equal to HEROES array data
-	heroes = HEROES;
+	heroes:  Hero[];
 	//declare selectedHero property to match Hero class from ../hero
 	selectedHero1: Hero;
-
+	constructor (
+	private heroService: HeroService) {}
+	getHeroes(): void {
+		this.heroes = this.heroService.getHeroes();
+	}
 }
 //Array of her data used for HeroComponent
-const HEROES: Hero[] = [
-	{name: 'Abel', hp: 44, atk: 41, spd: 27, def: 25, res:25, weaponMight: 8},
-	{name: 'Lucina', hp: 44, atk: 41, spd: 27, def: 25, res:25, weaponMight: 33}
-];
 
