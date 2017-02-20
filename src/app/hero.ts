@@ -1,4 +1,4 @@
-//delcare Hero class to be used in other components
+//define Hero class to be used in other components
 export class Hero {
 	name: string;
 	hp: number;
