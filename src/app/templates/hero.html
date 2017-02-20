@@ -1,44 +1,40 @@
 <div class="hero-wrapper">
-<select name="heroSelect" style="width: 100%;" [(ngModel)]="selectedHero1"> <!-- Take value from selected option and put it in interpolated string selectedHero-->
+<select name="heroSelect" class="hero-select" [(ngModel)]="selectedHero1"> <!-- Take value from selected option and put it in interpolated string selectedHero-->
     <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero1">  <!-- Show content only if selectedHero holds data -->
-  <img src="../images/Icon_Portrait_{{selectedHero1.name}}.png" />
-  <h2>Hero: {{selectedHero1.name}}</h2>
+  <img src="../images/Icon_Portrait_{{selectedHero1.name}}.png" class="hero-portrait"/>
   <p>HP: {{selectedHero1.hp}}<br/>
   Atk: {{selectedHero1.atk + selectedHero1.weaponMight}}</p>
   </div>
   </div>
   
   <div class="hero-wrapper" >
-  <select name="heroSelect" style="width: 100%;" [(ngModel)]="selectedHero2"> <!-- Take value from selected option and put it in interpolated string selectedHero-->
+  <select name="heroSelect" class="hero-select" [(ngModel)]="selectedHero2"> <!-- Take value from selected option and put it in interpolated string selectedHero-->
     <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero2">  <!-- Show content only if selectedHero holds data -->
-  <img src="../images/Icon_Portrait_{{selectedHero2.name}}.png" />
-  <h2>Hero: {{selectedHero2.name}}</h2>
+  <img src="../images/Icon_Portrait_{{selectedHero2.name}}.png" class="hero-portrait"/>
   <p>HP: {{selectedHero2.hp}}<br/>
   Atk: {{selectedHero2.atk + selectedHero2.weaponMight}}</p>
   </div>
   </div>
    <div class="hero-wrapper" >
-  <select name="heroSelect" style="width: 100%;" [(ngModel)]="selectedHero3"> <!-- Take value from selected option and put it in interpolated string selectedHero-->
+  <select name="heroSelect" class="hero-select" [(ngModel)]="selectedHero3"> <!-- Take value from selected option and put it in interpolated string selectedHero-->
     <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero3">  <!-- Show content only if selectedHero holds data -->
-  <img src="../images/Icon_Portrait_{{selectedHero3.name}}.png" />
-  <h2>Hero: {{selectedHero3.name}}</h2>
+  <img src="../images/Icon_Portrait_{{selectedHero3.name}}.png" class="hero-portrait"/>
   <p>HP: {{selectedHero3.hp}}<br/>
   Atk: {{selectedHero3.atk + selectedHero3.weaponMight}}</p>
   </div>
   </div>
    <div class="hero-wrapper" >
-  <select name="heroSelect" style="width: 100%;" [(ngModel)]="selectedHero4"> <!-- Take value from selected option and put it in interpolated string selectedHero-->
+  <select name="heroSelect" class="hero-select" [(ngModel)]="selectedHero4"> <!-- Take value from selected option and put it in interpolated string selectedHero-->
     <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero4">  <!-- Show content only if selectedHero holds data -->
-  <img src="../images/Icon_Portrait_{{selectedHero4.name}}.png" />
-  <h2>Hero: {{selectedHero4.name}}</h2>
+  <img src="../images/Icon_Portrait_{{selectedHero4.name}}.png" class="hero-portrait"/>
   <p>HP: {{selectedHero4.hp}}<br/>
   Atk: {{selectedHero4.atk + selectedHero4.weaponMight}}</p>
   </div>
