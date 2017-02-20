@@ -3,7 +3,7 @@
     <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero1">  <!-- Show content only if selectedHero holds data -->
-  <img src="../images/Icon_Portrait_{{selectedHero1.name}}.png" class="hero-portrait"/>
+  <img src="../assets/images/Icon_Portrait_{{selectedHero1.name}}.png" class="hero-portrait"/>
   <p>HP: {{selectedHero1.hp}}<br/>
   Atk: {{selectedHero1.atk + selectedHero1.weaponMight}}</p>
   </div>
@@ -14,7 +14,7 @@
     <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero2">  <!-- Show content only if selectedHero holds data -->
-  <img src="../images/Icon_Portrait_{{selectedHero2.name}}.png" class="hero-portrait"/>
+  <img src="../assets/images/Icon_Portrait_{{selectedHero2.name}}.png" class="hero-portrait"/>
   <p>HP: {{selectedHero2.hp}}<br/>
   Atk: {{selectedHero2.atk + selectedHero2.weaponMight}}</p>
   </div>
@@ -24,7 +24,7 @@
     <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero3">  <!-- Show content only if selectedHero holds data -->
-  <img src="../images/Icon_Portrait_{{selectedHero3.name}}.png" class="hero-portrait"/>
+  <img src="../assets/images/Icon_Portrait_{{selectedHero3.name}}.png" class="hero-portrait"/>
   <p>HP: {{selectedHero3.hp}}<br/>
   Atk: {{selectedHero3.atk + selectedHero3.weaponMight}}</p>
   </div>
@@ -34,7 +34,7 @@
     <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero4">  <!-- Show content only if selectedHero holds data -->
-  <img src="../images/Icon_Portrait_{{selectedHero4.name}}.png" class="hero-portrait"/>
+  <img src="../assets/images/Icon_Portrait_{{selectedHero4.name}}.png" class="hero-portrait"/>
   <p>HP: {{selectedHero4.hp}}<br/>
   Atk: {{selectedHero4.atk + selectedHero4.weaponMight}}</p>
   </div>
