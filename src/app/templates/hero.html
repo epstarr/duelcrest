@@ -4,18 +4,14 @@
     <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero1">  <!-- Show content only if selectedHero holds data -->
-  <img src="../assets/images/Icon_Portrait_{{selectedHero1.name}}.png" class="hero-portrait img-responsive"/>
-  <div class="hero-stats">
-    <span class="stat" id="hero-hpmin">{{selectedHero1.hp}}</span>
-    <span class="stat" id="hero-hpmax">{{selectedHero1.hp}}</span>
-    <span class="stat" id="hero-atk">{{selectedHero1.atk + selectedHero1.weaponMight}}</span>
-    <span class="stat" id="hero-spd">{{selectedHero1.spd}}</span>
-    <span class="stat" id="hero-def">{{selectedHero1.def}}</span>
-    <span class="stat" id="hero-res">{{selectedHero1.res}}</span>
-  </div>
+  <img src="../assets/images/Icon_Portrait_{{selectedHero1.name}}.png" class="hero-portrait img-responsive" width="132" height="132" />
   <img src="../assets/images/Stat_Background.png" class=" img-responsive"/>
-  <p>HP: {{selectedHero1.hp}}<br/>
-  Atk: {{selectedHero1.atk + selectedHero1.weaponMight}}</p>
+    <span class="stat hero-hpmin">{{selectedHero1.hp}}</span>
+    <span class="stat hero-hpmax">{{selectedHero1.hp}}</span>
+    <span class="stat hero-atk">{{selectedHero1.atk + selectedHero1.weaponMight}}</span>
+    <span class="stat hero-spd">{{selectedHero1.spd}}</span>
+    <span class="stat hero-def">{{selectedHero1.def}}</span>
+    <span class="stat hero-res">{{selectedHero1.res}}</span>
   </div>
   </div>
   
@@ -24,9 +20,14 @@
     <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero2">  <!-- Show content only if selectedHero holds data -->
-  <img src="../assets/images/Icon_Portrait_{{selectedHero2.name}}.png" class="hero-portrait img-responsive"/>
-  <p>HP: {{selectedHero2.hp}}<br/>
-  Atk: {{selectedHero2.atk + selectedHero2.weaponMight}}</p>
+  <img src="../assets/images/Icon_Portrait_{{selectedHero2.name}}.png" class="hero-portrait img-responsive" width="132" height="132" />
+  <img src="../assets/images/Stat_Background.png" class=" img-responsive"/>
+    <span class="stat hero-hpmin">{{selectedHero2.hp}}</span>
+    <span class="stat hero-hpmax">{{selectedHero2.hp}}</span>
+    <span class="stat hero-atk">{{selectedHero2.atk + selectedHero2.weaponMight}}</span>
+    <span class="stat hero-spd">{{selectedHero2.spd}}</span>
+    <span class="stat hero-def">{{selectedHero2.def}}</span>
+    <span class="stat hero-res">{{selectedHero2.res}}</span>
   </div>
   </div>
    <div class="hero-wrapper" >
@@ -34,9 +35,14 @@
     <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero3">  <!-- Show content only if selectedHero holds data -->
-  <img src="../assets/images/Icon_Portrait_{{selectedHero3.name}}.png" class="hero-portrait img-responsive"/>
-  <p>HP: {{selectedHero3.hp}}<br/>
-  Atk: {{selectedHero3.atk + selectedHero3.weaponMight}}</p>
+  <img src="../assets/images/Icon_Portrait_{{selectedHero3.name}}.png" class="hero-portrait img-responsive" width="132" height="132" />
+  <img src="../assets/images/Stat_Background.png" class=" img-responsive"/>
+    <span class="stat hero-hpmin">{{selectedHero3.hp}}</span>
+    <span class="stat hero-hpmax">{{selectedHero3.hp}}</span>
+    <span class="stat hero-atk">{{selectedHero3.atk + selectedHero3.weaponMight}}</span>
+    <span class="stat hero-spd">{{selectedHero3.spd}}</span>
+    <span class="stat hero-def">{{selectedHero3.def}}</span>
+    <span class="stat hero-res">{{selectedHero3.res}}</span>
   </div>
   </div>
    <div class="hero-wrapper" >
@@ -44,9 +50,14 @@
     <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero4">  <!-- Show content only if selectedHero holds data -->
-  <img src="../assets/images/Icon_Portrait_{{selectedHero4.name}}.png" class="hero-portrait img-responsive"/>
-  <p>HP: {{selectedHero4.hp}}<br/>
-  Atk: {{selectedHero4.atk + selectedHero4.weaponMight}}</p>
+  <img src="../assets/images/Icon_Portrait_{{selectedHero4.name}}.png" class="hero-portrait img-responsive" width="132" height="132" />
+  <img src="../assets/images/Stat_Background.png" class=" img-responsive"/>
+    <span class="stat hero-hpmin">{{selectedHero4.hp}}</span>
+    <span class="stat hero-hpmax">{{selectedHero4.hp}}</span>
+    <span class="stat hero-atk">{{selectedHero4.atk + selectedHero4.weaponMight}}</span>
+    <span class="stat hero-spd">{{selectedHero4.spd}}</span>
+    <span class="stat hero-def">{{selectedHero4.def}}</span>
+    <span class="stat hero-res">{{selectedHero4.res}}</span>
   </div>
   </div>
   </div>

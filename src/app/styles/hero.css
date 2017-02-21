@@ -30,39 +30,36 @@
 	background-repeat: no-repeat;
 	border: none;
 }
-.hero-stats {
-	position: absolute;
+.stat {
 	font-size: 18px;
 	color: gold;
-}
-.stat {
 	position: relative;
 }
-#hero-hpmin {
+.hero-hpmin {
 	left: 46px;
-    top: 3px;
+    bottom: 66px;
     font-size: 22px;
 }
-#hero-hpmax {
+.hero-hpmax {
 	left: 69px;
-    top: 3px;
+    bottom: 66px;
     font-size: 22px;
 }
-#hero-atk {
-	top: 26px;
+.hero-atk {
+	bottom: 44px;
     right: 11px;
 }
-#hero-spd {
-	top: 26px;
+.hero-spd {
+	bottom: 44px;
     left: 28px;
 }
-#hero-def {
-	top: 44px;
+.hero-def {
+	bottom: 26px;
     right: 56px;
 }
-#hero-res {
-	top: 44px;
-    right: 17px;
+.hero-res {
+	bottom: 26px;
+    left: 103px;
 }
 select {
     -webkit-appearance: none;
