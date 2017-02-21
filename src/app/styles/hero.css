@@ -1,3 +1,7 @@
+.img-responsive {
+	width: 100%;
+	height: auto;
+}
 .heroes-wrapper {
 	display: block;
 	max-width: 600px;
@@ -13,8 +17,7 @@
 	color: #000;
 }
 .hero-portrait {
-	width: 100%;
-	height: auto;
+
 }
 .hero-select {
 	width: 100%;
@@ -26,6 +29,40 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 	border: none;
+}
+.hero-stats {
+	position: absolute;
+	font-size: 18px;
+	color: gold;
+}
+.stat {
+	position: relative;
+}
+#hero-hpmin {
+	left: 46px;
+    top: 3px;
+    font-size: 22px;
+}
+#hero-hpmax {
+	left: 69px;
+    top: 3px;
+    font-size: 22px;
+}
+#hero-atk {
+	top: 26px;
+    right: 11px;
+}
+#hero-spd {
+	top: 26px;
+    left: 28px;
+}
+#hero-def {
+	top: 44px;
+    right: 56px;
+}
+#hero-res {
+	top: 44px;
+    right: 17px;
 }
 select {
     -webkit-appearance: none;
