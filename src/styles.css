@@ -1,3 +1,9 @@
+html {
+  background-image: url(/assets/images/Bg_Title.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
 .loader {
   margin: 100px auto;
   font-size: 25px;

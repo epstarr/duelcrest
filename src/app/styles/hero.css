@@ -9,7 +9,9 @@
 	vertical-align: top;
 	max-width: 150px; 
 	margin-left: 10px; 
-	background-color: #eee;}
+	background-color: #eee;
+	color: #000;
+}
 .hero-portrait {
 	width: 100%;
 	height: auto;
