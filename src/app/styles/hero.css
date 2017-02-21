@@ -1,8 +1,14 @@
+.heroes-wrapper {
+	display: block;
+	max-width: 600px;
+	margin: auto;
+}
 .hero-wrapper {
+	display: inline-block;
 	width: 22%; 
+	vertical-align: top;
 	max-width: 150px; 
 	margin-left: 10px; 
-	float: left;
 	background-color: #eee;
 }
 .hero-portrait {
@@ -11,4 +17,6 @@
 }
 .hero-select {
 	width: 100%;
+	height: 30px;
+	font-size: 18px;
 }

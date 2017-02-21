@@ -1,3 +1,4 @@
+<div class="heroes-wrapper">
 <div class="hero-wrapper">
 <select name="heroSelect" class="hero-select" [(ngModel)]="selectedHero1"> <!-- Take value from selected option and put it in interpolated string selectedHero-->
     <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
@@ -37,6 +38,7 @@
   <img src="../assets/images/Icon_Portrait_{{selectedHero4.name}}.png" class="hero-portrait"/>
   <p>HP: {{selectedHero4.hp}}<br/>
   Atk: {{selectedHero4.atk + selectedHero4.weaponMight}}</p>
+  </div>
   </div>
   </div>
   <div style="clear: both;"></div>
