@@ -13,8 +13,19 @@
 	vertical-align: top;
 	max-width: 150px; 
 	margin-left: 10px; 
-	background-color: #eee;
 	color: #000;
+}
+.hero-wrapper::before {
+	content: '';
+	background-image: url(../../assets/images/HeroBG.png);
+	height: 345px;
+	width: 137px;
+	display: block;
+	position: absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -1;
+	background-position-x: -5px;
 }
 .hero-portrait {
 
@@ -58,7 +69,7 @@
     right: 56px;
 }
 .hero-res {
-	bottom: 26px;
+	bottom: 49px;
     left: 103px;
 }
 select {
