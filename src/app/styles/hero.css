@@ -7,6 +7,15 @@
 	max-width: 600px;
 	margin: auto;
 }
+hero::before {
+	content: '';
+	display: block;
+	background-image: url('../../assets/images/HeroRowBG1.png');
+	background-repeat: repeat-x;
+	background-size: contain;
+	height: 600px;
+	z-index: -1;
+}
 .hero-wrapper {
 	display: inline-block;
 	width: 22%; 
@@ -15,7 +24,7 @@
 	margin-left: 10px; 
 	color: #000;
 }
-.hero-wrapper::before {
+/*.hero-wrapper::before {
 	content: '';
 	background-image: url(../../assets/images/HeroBG.png);
 	height: 345px;
@@ -26,7 +35,7 @@
 	background-repeat: no-repeat;
 	z-index: -1;
 	background-position-x: -5px;
-}
+}*/
 .hero-portrait {
 
 }
@@ -43,34 +52,45 @@
 }
 .stat {
 	font-size: 18px;
-	color: gold;
+	color: #fff;
 	position: relative;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+.stat-background {
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/Stat_Background.png);
+    height: 67px;
 }
 .hero-hpmin {
 	left: 46px;
-    bottom: 66px;
+    bottom: -3px;
     font-size: 22px;
 }
 .hero-hpmax {
 	left: 69px;
-    bottom: 66px;
+    bottom: -3px;
     font-size: 22px;
 }
 .hero-atk {
-	bottom: 44px;
+	bottom: -26px;
     right: 11px;
 }
 .hero-spd {
-	bottom: 44px;
+	bottom: -26px;
     left: 28px;
 }
 .hero-def {
-	bottom: 26px;
+	bottom: -44px;
     right: 56px;
 }
 .hero-res {
-	bottom: 49px;
-    left: 103px;
+	bottom: -21px;
+    left: 102px;
 }
 select {
     -webkit-appearance: none;
