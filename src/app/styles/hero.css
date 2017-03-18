@@ -92,6 +92,31 @@ hero::before {
 	bottom: -21px;
     left: 102px;
 }
+.skill-background {
+	background-image: url(../../assets/images/SkillBG.png);
+	background-size: contain;
+    background-repeat: no-repeat;
+    height: 64px;
+    margin-top: 15px;
+}
+.hero-weapon {
+	display: block;
+	padding-left: 20px;
+	line-height: 1.25;
+	cursor: pointer;
+}
+.hero-assist {
+	display: block;
+	padding-left: 20px;
+	line-height: 1.25;
+	cursor: pointer;
+}
+.hero-special {
+	display: block;
+	padding-left: 20px;
+	line-height: 1.2;
+	cursor: pointer;
+}
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
