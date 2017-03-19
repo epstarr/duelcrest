@@ -48,6 +48,7 @@ hero::before {
 	background-image: url(../../assets/images/GoldNameBanner.png);
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	border: none;
 }
 .stat {
