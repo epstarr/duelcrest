@@ -3,9 +3,11 @@ import  { Injectable } from '@angular/core';
 //import Hero class
 import { Hero } from '../hero';
 import { HeroComplete } from '../hero-complete';
+import { HeroWeapons } from '../heroweapons';
 //import HEROES array data
 import { HEROES } from '../heroes';
 import { HEROESCOM } from '../heroes-complete';
+import { WEAPONS } from '../weapons';
 
 //Allow for the injecting of other dependencies into service
 @Injectable()
@@ -18,6 +20,10 @@ export class HeroService {
 
 	getHeroesComplete(): HeroComplete[] {
 		return HEROESCOM; 
+	}
+
+	getWeapons(): HeroWeapons[] {
+		return WEAPONS;
 	}
 
 }
