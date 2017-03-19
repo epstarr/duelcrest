@@ -6,4 +6,5 @@ export class HeroComplete {
 	spd: number[];
 	def: number[];
 	res: number[];
+	weapid: number;
 }

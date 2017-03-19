@@ -14,7 +14,7 @@
     <span class="stat hero-res">{{selectedHero1.res[1]}}</span>
     </div>
     <div class="skill-background">
-      <span class="stat hero-weapon">Mjolinr</span>
+      <span class="stat hero-weapon">{{weapons[selectedHero1.weapid-1].name}}</span>
       <span class="stat hero-assist">Assist</span>
       <span class="stat hero-special">Special</span>
     </div>
@@ -36,7 +36,7 @@
     <span class="stat hero-res">{{selectedHero2.res[1]}}</span>
     </div>
     <div class="skill-background">
-      <span class="stat hero-weapon">Mjolinr</span>
+      <span class="stat hero-weapon">{{weapons[selectedHero2.weapid-1].name}}</span>
       <span class="stat hero-assist">Assist</span>
       <span class="stat hero-special">Special</span>
     </div>
@@ -57,7 +57,7 @@
     <span class="stat hero-res">{{selectedHero3.res[1]}}</span>
     </div>
     <div class="skill-background">
-      <span class="stat hero-weapon">Mjolinr</span>
+      <span class="stat hero-weapon">{{weapons[selectedHero3.weapid-1].name}}</span>
       <span class="stat hero-assist">Assist</span>
       <span class="stat hero-special">Special</span>
     </div>
@@ -78,7 +78,7 @@
     <span class="stat hero-res">{{selectedHero4.res[1]}}</span>
     </div>
     <div class="skill-background">
-      <span class="stat hero-weapon">Mjolinr</span>
+      <span class="stat hero-weapon">{{weapons[selectedHero4.weapid-1].name}}</span>
       <span class="stat hero-assist">Assist</span>
       <span class="stat hero-special">Special</span>
     </div>
@@ -87,4 +87,4 @@
   </div>
   <div style="clear: both;"></div>
   <h3>Full selectedHero1 JSON Data</h3>
-  <p>{{selectedHero1 | json}}</p>
+  <p>{{weapons[2].name}}</p>
