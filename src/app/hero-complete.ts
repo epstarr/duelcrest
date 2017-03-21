@@ -8,4 +8,5 @@ export class HeroComplete {
 	res: number[];
 	weapid: number;
 	assistid: number;
+	specialid: number;
 }
