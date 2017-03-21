@@ -5,11 +5,13 @@ import { Hero } from '../hero';
 import { HeroComplete } from '../hero-complete';
 import { HeroWeapons } from '../heroweapons';
 import { HeroAssists } from '../heroassists';
+import { HeroSpecials } from '../herospecials';
 //import HEROES array data
 import { HEROES } from '../heroes';
 import { HEROESCOM } from '../heroes-complete';
 import { WEAPONS } from '../weapons';
 import { HEROSASSIST } from '../assists';
+import { HEROSPECIALS } from '../specials';
 
 //Allow for the injecting of other dependencies into service
 @Injectable()
@@ -30,6 +32,9 @@ export class HeroService {
 
 	getAssists(): HeroAssists[] {
 		return HEROSASSIST;
+	}
+	getSpecials(): HeroSpecials[] {
+		return HEROSPECIALS;
 	}
 
 }
