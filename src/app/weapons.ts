@@ -56,7 +56,7 @@ export const WEAPONS: HeroWeapons[] = [
 {id:48,name:"Flametongue+",mods:[0,15,0,0,0]},
 {id:49,name:"Flux",mods:[0,4,0,0,0]},
 {id:50,name:"Fólkvangr",mods:[0,16,0,0,0]},
-{id:51,name:"FujinYumi",mods:[0,14,0,0,0]},
+{id:51,name:"Fujin Yumi",mods:[0,14,0,0,0]},
 {id:52,name:"Gravity",mods:[0,6,0,0,0]},
 {id:53,name:"Gronnblade",mods:[0,9,0,0,0]},
 {id:54,name:"Gronnblade+",mods:[0,13,0,0,0]},
