@@ -7,4 +7,5 @@ export class HeroComplete {
 	def: number[];
 	res: number[];
 	weapid: number;
+	assistid: number;
 }
