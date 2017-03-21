@@ -105,18 +105,27 @@ hero::before {
 	padding-left: 20px;
 	line-height: 1.25;
 	cursor: pointer;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .hero-assist {
 	display: block;
 	padding-left: 20px;
 	line-height: 1.25;
 	cursor: pointer;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .hero-special {
 	display: block;
 	padding-left: 20px;
 	line-height: 1.2;
 	cursor: pointer;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 select {
     -webkit-appearance: none;
