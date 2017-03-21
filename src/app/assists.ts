@@ -4,7 +4,7 @@
 import { HeroAssists } from './heroassists';
 
 export const HEROSASSIST: HeroAssists[] = [
-{id:0,name:""},
+{id:0,name:"-"},
 {id:1,name:"Ardent Sacrifice"},
 {id:2,name:"Dance"},
 {id:3,name:"Draw Back"},

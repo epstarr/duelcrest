@@ -15,7 +15,7 @@
     </div>
     <div class="skill-background">
       <span class="stat hero-weapon">{{weapons[selectedHero1.weapid-1].name}}</span>
-      <span class="stat hero-assist">Assist</span>
+      <span class="stat hero-assist">{{assists[selectedHero1.assistid].name}}</span>
       <span class="stat hero-special">Special</span>
     </div>
   </div>
@@ -87,4 +87,4 @@
   </div>
   <div style="clear: both;"></div>
   <h3>Full selectedHero1 JSON Data</h3>
-  <p>{{weapons[58].name}}</p>
+  <p>{{assists[1].name}}</p>

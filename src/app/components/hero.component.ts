@@ -3,6 +3,7 @@ import { OnInit } from '@angular/core';
 import { Hero } from '../hero';
 import { HeroComplete } from '../hero-complete';
 import { HeroWeapons } from '../heroweapons';
+import { HeroAssists } from '../heroassists';
 import { HeroService } from '../services/hero.service';
 
 @Component({
@@ -19,6 +20,7 @@ export class HeroComponent implements OnInit {
 	heroes:  Hero[];
 	heroesComplete: HeroComplete[];
 	weapons: HeroWeapons[];
+	assists: HeroAssists[];
 
 	//Inject HeroService as heroSerivce private variable
 	constructor (
@@ -35,11 +37,15 @@ export class HeroComponent implements OnInit {
 	getWeapons(): void {
 		this.weapons = this.heroService.getWeapons();
 	}
+	getAssists(): void {
+		this.assists = this.heroService.getAssists();
+	}
 
 	//Call getHeroes on app init
 	ngOnInit(): void {
 		this.getHeroes();
 		this.getHeroesComplete();
 		this.getWeapons();
+		this.getAssists();
 	};
 }
