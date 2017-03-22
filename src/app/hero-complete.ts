@@ -10,4 +10,5 @@ export class HeroComplete {
 	assistid: number;
 	specialid: number;
 	class: string;
+	type: string;
 }
