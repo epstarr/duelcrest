@@ -7,6 +7,15 @@
 	max-width: 600px;
 	margin: auto;
 }
+hero::before {
+	content: '';
+	display: block;
+	background-image: url('../../assets/images/HeroRowBG1.png');
+	background-repeat: repeat-x;
+	background-size: contain;
+	height: 600px;
+	z-index: -1;
+}
 .hero-wrapper {
 	display: inline-block;
 	width: 22%; 
@@ -15,7 +24,7 @@
 	margin-left: 10px; 
 	color: #000;
 }
-.hero-wrapper::before {
+/*.hero-wrapper::before {
 	content: '';
 	background-image: url(../../assets/images/HeroBG.png);
 	height: 345px;
@@ -26,9 +35,29 @@
 	background-repeat: no-repeat;
 	z-index: -1;
 	background-position-x: -5px;
+}*/
+.hero-border {
+	position: relative;
 }
-.hero-portrait {
-
+.hero-border::before {
+    content: '';
+    position: absolute;
+    width: 127px;
+    height: 127px;
+    background-size: cover;
+    background-image: url(../../assets/images/HeroGoldBanner.png);
+}
+.hero-class-icon {
+	position: absolute;
+	width: 40px;
+	left: -5px;
+	top: -5px;
+}
+.hero-type-icon {
+	position: absolute;
+	width: 40px;
+	bottom: 0;
+	right: 0;
 }
 .hero-select {
 	width: 100%;
@@ -39,38 +68,88 @@
 	background-image: url(../../assets/images/GoldNameBanner.png);
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	border: none;
+}
+.hero-portrait {
+	max-width: 122px;
+	margin: 2px 0 0 2px;
 }
 .stat {
 	font-size: 18px;
-	color: gold;
+	color: #fff;
 	position: relative;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+.stat-background {
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/Stat_Background.png);
+    height: 67px;
 }
 .hero-hpmin {
 	left: 46px;
-    bottom: 66px;
+    bottom: -3px;
     font-size: 22px;
 }
 .hero-hpmax {
 	left: 69px;
-    bottom: 66px;
+    bottom: -3px;
     font-size: 22px;
 }
 .hero-atk {
-	bottom: 44px;
+	bottom: -26px;
     right: 11px;
 }
 .hero-spd {
-	bottom: 44px;
+	bottom: -26px;
     left: 28px;
 }
 .hero-def {
-	bottom: 26px;
+	bottom: -44px;
     right: 56px;
 }
 .hero-res {
-	bottom: 49px;
-    left: 103px;
+	bottom: -21px;
+    left: 102px;
+}
+.skill-background {
+	background-image: url(../../assets/images/SkillBG.png);
+	background-size: contain;
+    background-repeat: no-repeat;
+    height: 64px;
+    margin-top: 15px;
+}
+.hero-weapon {
+	display: block;
+	padding-left: 20px;
+	line-height: 1.25;
+	cursor: pointer;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.hero-assist {
+	display: block;
+	padding-left: 20px;
+	line-height: 1.25;
+	cursor: pointer;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.hero-special {
+	display: block;
+	padding-left: 20px;
+	line-height: 1.2;
+	cursor: pointer;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 select {
     -webkit-appearance: none;

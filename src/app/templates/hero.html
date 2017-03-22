@@ -1,66 +1,110 @@
 <div class="heroes-wrapper">
 <div class="hero-wrapper">
 <select name="heroSelect" class="hero-select" [(ngModel)]="selectedHero1"> <!-- Take value from selected option and put it in interpolated string selectedHero-->
-    <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
+    <option *ngFor="let h of heroesComplete" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero1">  <!-- Show content only if selectedHero holds data -->
-  <img src="../assets/images/Icon_Portrait_{{selectedHero1.name}}.png" class="hero-portrait img-responsive" width="132" height="132" />
-  <img src="../assets/images/Stat_Background.png" class=" img-responsive"/>
-    <span class="stat hero-hpmin">{{selectedHero1.hp}}</span>
-    <span class="stat hero-hpmax">{{selectedHero1.hp}}</span>
-    <span class="stat hero-atk">{{selectedHero1.atk + selectedHero1.weaponMight}}</span>
-    <span class="stat hero-spd">{{selectedHero1.spd}}</span>
-    <span class="stat hero-def">{{selectedHero1.def}}</span>
-    <span class="stat hero-res">{{selectedHero1.res}}</span>
+  <div class="hero-border">
+  <img class="hero-class-icon" src="../assets/images/Icon_{{selectedHero1.class}}.png" />
+  <img src="../assets/images/heroes/Icon_Portrait_{{selectedHero1.name}}.png" class="hero-portrait img-responsive" width="122" height="122" />
+  <img class="hero-type-icon" src="../assets/images/Icon_Class_{{selectedHero1.type}}.png" />
+  </div>
+  <div class="stat-background">
+    <span class="stat hero-hpmin">{{selectedHero1.hp[1]}}</span>
+    <span class="stat hero-hpmax">{{selectedHero1.hp[1]}}</span>
+    <span class="stat hero-atk">{{selectedHero1.atk[1]}}</span>
+    <span class="stat hero-spd">{{selectedHero1.spd[1]}}</span>
+    <span class="stat hero-def">{{selectedHero1.def[1]}}</span>
+    <span class="stat hero-res">{{selectedHero1.res[1]}}</span>
+    </div>
+    <h2 class="stat">BST: {{selectedHero1.hp[1] + selectedHero1.atk[1] + selectedHero1.spd[1] + selectedHero1.def[1] + selectedHero1.res[1]}}</h2>
+    <div class="skill-background">
+      <span class="stat hero-weapon">{{weapons[selectedHero1.weapid-1].name}}</span>
+      <span class="stat hero-assist">{{assists[selectedHero1.assistid].name}}</span>
+      <span class="stat hero-special">{{specials[selectedHero1.specialid].name}}</span>
+    </div>
   </div>
   </div>
   
   <div class="hero-wrapper" >
   <select name="heroSelect" class="hero-select" [(ngModel)]="selectedHero2"> <!-- Take value from selected option and put it in interpolated string selectedHero-->
-    <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
+    <option *ngFor="let h of heroesComplete" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero2">  <!-- Show content only if selectedHero holds data -->
-  <img src="../assets/images/Icon_Portrait_{{selectedHero2.name}}.png" class="hero-portrait img-responsive" width="132" height="132" />
-  <img src="../assets/images/Stat_Background.png" class=" img-responsive"/>
-    <span class="stat hero-hpmin">{{selectedHero2.hp}}</span>
-    <span class="stat hero-hpmax">{{selectedHero2.hp}}</span>
-    <span class="stat hero-atk">{{selectedHero2.atk + selectedHero2.weaponMight}}</span>
-    <span class="stat hero-spd">{{selectedHero2.spd}}</span>
-    <span class="stat hero-def">{{selectedHero2.def}}</span>
-    <span class="stat hero-res">{{selectedHero2.res}}</span>
+  <div class="hero-border">
+  <img class="hero-class-icon" src="../assets/images/Icon_{{selectedHero2.class}}.png" />
+  <img src="../assets/images/heroes/Icon_Portrait_{{selectedHero2.name}}.png" class="hero-portrait img-responsive" width="122" height="122" />
+  <img class="hero-type-icon" src="../assets/images/Icon_Class_{{selectedHero2.type}}.png" />
+  </div>
+  <div class="stat-background">
+    <span class="stat hero-hpmin">{{selectedHero2.hp[1]}}</span>
+    <span class="stat hero-hpmax">{{selectedHero2.hp[1]}}</span>
+    <span class="stat hero-atk">{{selectedHero2.atk[1]}}</span>
+    <span class="stat hero-spd">{{selectedHero2.spd[1]}}</span>
+    <span class="stat hero-def">{{selectedHero2.def[1]}}</span>
+    <span class="stat hero-res">{{selectedHero2.res[1]}}</span>
+    </div>
+    <h2 class="stat">BST: {{selectedHero2.hp[1] + selectedHero2.atk[1] + selectedHero2.spd[1] + selectedHero2.def[1] + selectedHero2.res[1]}}</h2>
+    <div class="skill-background">
+      <span class="stat hero-weapon">{{weapons[selectedHero2.weapid-1].name}}</span>
+      <span class="stat hero-assist">{{assists[selectedHero2.assistid].name}}</span>
+      <span class="stat hero-special">{{specials[selectedHero2.specialid].name}}</span>
+    </div>
   </div>
   </div>
    <div class="hero-wrapper" >
   <select name="heroSelect" class="hero-select" [(ngModel)]="selectedHero3"> <!-- Take value from selected option and put it in interpolated string selectedHero-->
-    <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
+    <option *ngFor="let h of heroesComplete" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero3">  <!-- Show content only if selectedHero holds data -->
-  <img src="../assets/images/Icon_Portrait_{{selectedHero3.name}}.png" class="hero-portrait img-responsive" width="132" height="132" />
-  <img src="../assets/images/Stat_Background.png" class=" img-responsive"/>
-    <span class="stat hero-hpmin">{{selectedHero3.hp}}</span>
-    <span class="stat hero-hpmax">{{selectedHero3.hp}}</span>
-    <span class="stat hero-atk">{{selectedHero3.atk + selectedHero3.weaponMight}}</span>
-    <span class="stat hero-spd">{{selectedHero3.spd}}</span>
-    <span class="stat hero-def">{{selectedHero3.def}}</span>
-    <span class="stat hero-res">{{selectedHero3.res}}</span>
+  <div class="hero-border">
+  <img class="hero-class-icon" src="../assets/images/Icon_{{selectedHero3.class}}.png" />
+  <img src="../assets/images/heroes/Icon_Portrait_{{selectedHero3.name}}.png" class="hero-portrait img-responsive" width="122" height="122" />
+  <img class="hero-type-icon" src="../assets/images/Icon_Class_{{selectedHero3.type}}.png" />
+  </div>
+  <div class="stat-background">
+    <span class="stat hero-hpmin">{{selectedHero3.hp[1]}}</span>
+    <span class="stat hero-hpmax">{{selectedHero3.hp[1]}}</span>
+    <span class="stat hero-atk">{{selectedHero3.atk[1]}}</span>
+    <span class="stat hero-spd">{{selectedHero3.spd[1]}}</span>
+    <span class="stat hero-def">{{selectedHero3.def[1]}}</span>
+    <span class="stat hero-res">{{selectedHero3.res[1]}}</span>
+    </div>
+    <h2 class="stat">BST: {{selectedHero3.hp[1] + selectedHero3.atk[1] + selectedHero3.spd[1] + selectedHero3.def[1] + selectedHero3.res[1]}}</h2>
+    <div class="skill-background">
+      <span class="stat hero-weapon">{{weapons[selectedHero3.weapid-1].name}}</span>
+      <span class="stat hero-assist">{{assists[selectedHero3.assistid].name}}</span>
+      <span class="stat hero-special">{{specials[selectedHero3.specialid].name}}</span>
+    </div>
   </div>
   </div>
    <div class="hero-wrapper" >
   <select name="heroSelect" class="hero-select" [(ngModel)]="selectedHero4"> <!-- Take value from selected option and put it in interpolated string selectedHero-->
-    <option *ngFor="let h of heroes" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
+    <option *ngFor="let h of heroesComplete" [ngValue]="h">{{h.name}}</option> <!-- For each hero in HEROES, show hero name in option and send the objects to the ngModel -->
   </select>
   <div *ngIf="selectedHero4">  <!-- Show content only if selectedHero holds data -->
-  <img src="../assets/images/Icon_Portrait_{{selectedHero4.name}}.png" class="hero-portrait img-responsive" width="132" height="132" />
-  <img src="../assets/images/Stat_Background.png" class=" img-responsive"/>
-    <span class="stat hero-hpmin">{{selectedHero4.hp}}</span>
-    <span class="stat hero-hpmax">{{selectedHero4.hp}}</span>
-    <span class="stat hero-atk">{{selectedHero4.atk + selectedHero4.weaponMight}}</span>
-    <span class="stat hero-spd">{{selectedHero4.spd}}</span>
-    <span class="stat hero-def">{{selectedHero4.def}}</span>
-    <span class="stat hero-res">{{selectedHero4.res}}</span>
+  <div class="hero-border">
+  <img class="hero-class-icon" src="../assets/images/Icon_{{selectedHero4.class}}.png" />
+  <img src="../assets/images/heroes/Icon_Portrait_{{selectedHero4.name}}.png" class="hero-portrait img-responsive" width="122" height="122" />
+  <img class="hero-type-icon" src="../assets/images/Icon_Class_{{selectedHero4.type}}.png" />
+  </div>
+  <div class="stat-background">
+    <span class="stat hero-hpmin">{{selectedHero4.hp[1]}}</span>
+    <span class="stat hero-hpmax">{{selectedHero4.hp[1]}}</span>
+    <span class="stat hero-atk">{{selectedHero4.atk[1]}}</span>
+    <span class="stat hero-spd">{{selectedHero4.spd[1]}}</span>
+    <span class="stat hero-def">{{selectedHero4.def[1]}}</span>
+    <span class="stat hero-res">{{selectedHero4.res[1]}}</span>
+    </div>
+    <h2 class="stat">BST: {{selectedHero4.hp[1] + selectedHero4.atk[1] + selectedHero4.spd[1] + selectedHero4.def[1] + selectedHero4.res[1]}}</h2>
+    <div class="skill-background">
+      <span class="stat hero-weapon">{{weapons[selectedHero4.weapid-1].name}}</span>
+      <span class="stat hero-assist">{{assists[selectedHero4.assistid].name}}</span>
+      <span class="stat hero-special">{{specials[selectedHero4.specialid].name}}</span>
+    </div>
   </div>
   </div>
   </div>
   <div style="clear: both;"></div>
   <h3>Full selectedHero1 JSON Data</h3>
-  <p>{{selectedHero1 | json}}</p>
+  <p>{{assists[1].name}}</p>

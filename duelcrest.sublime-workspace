@@ -1,0 +1,718 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"HEROSPE",
+				"HEROSPECIALS\talias"
+			],
+			[
+				"hero",
+				"herospecials\tscript"
+			],
+			[
+				"Hero",
+				"HeroAssists\talias"
+			],
+			[
+				"get",
+				"getWeapons\tmethod"
+			],
+			[
+				"getHeroe",
+				"getHeroesComplete\tmethod"
+			],
+			[
+				"her",
+				"hero-complete\tscript"
+			],
+			[
+				"heroes",
+				"heroesComplete\tproperty"
+			],
+			[
+				"nu",
+				"number\tkeyword"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"stat",
+				"stat-background"
+			],
+			[
+				"rep",
+				"repeat-x"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"he",
+				"Heroes"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"str",
+				"String\tinterface"
+			],
+			[
+				"backgr",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/app/heroes-complete.ts",
+			"settings":
+			{
+				"buffer_size": 14107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/templates/hero.html",
+			"settings":
+			{
+				"buffer_size": 5577,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/components/hero.component.ts",
+			"settings":
+			{
+				"buffer_size": 1519,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/hero-complete.ts",
+			"settings":
+			{
+				"buffer_size": 230,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/assists.ts",
+			"settings":
+			{
+				"buffer_size": 728,
+				"line_ending": "Unix",
+				"name": "assists.ts"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 262.0,
+		"last_filter": "dif",
+		"selected_items":
+		[
+			[
+				"dif",
+				"Git: Diff All Files (Ignore Whitespace)"
+			],
+			[
+				"amm",
+				"Git: Amend Commit"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"ad",
+				"Git: Add Current File"
+			],
+			[
+				"ame",
+				"Git: Amend Commit"
+			],
+			[
+				"log",
+				"Git: Log All"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"diff",
+				"Git: Diff All Files"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"am",
+				"Git: Amend Commit"
+			],
+			[
+				"rese",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"termin",
+				"Terminal: Open in project folder"
+			],
+			[
+				"staged",
+				"Git: Diff Staged Files"
+			],
+			[
+				"stag",
+				"Git: Diff Staged Files"
+			],
+			[
+				"stage",
+				"Git: Diff Staged Files"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"termi",
+				"Terminal: Open"
+			],
+			[
+				"res",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"bran",
+				"Git: New Branch"
+			],
+			[
+				"ter",
+				"Terminal: Open"
+			],
+			[
+				"term",
+				"Terminal: Open in project folder"
+			],
+			[
+				"git",
+				"Git: Pull"
+			],
+			[
+				"pull",
+				"Git: Pull Current Branch"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"termina",
+				"Terminal: Open"
+			],
+			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"comi",
+				"Git: Commit"
+			],
+			[
+				"git ci",
+				"Git: Commit"
+			],
+			[
+				"package control in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 378.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/epstarr/Documents/GitHub/duelcrest",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/components",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/services",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/styles",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/templates"
+	],
+	"file_history":
+	[
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/specials.ts",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/components/hero.component.ts",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/services/hero.service.ts",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/herospecials.ts",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/templates/specials.ts",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/styles/hero.css",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/index.html",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/templates/hero.html",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/heroes-complete.ts",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/hero-complete.ts",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/hero.ts",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/heroassists.ts",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/weapons.ts",
+		"/Users/epstarr/Documents/GitHub/duelcrest/.gitignore",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/heroweapons.ts",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/heroes.ts",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/styles.css",
+		"/Users/epstarr/Dropbox (Personal)/feh (1)/stats.json",
+		"/Users/epstarr/Documents/GitHub/duelcrest/src/app/herostats.json",
+		"/Users/epstarr/Documents/GitHub/app/components/user.component.ts",
+		"/Users/epstarr/Documents/GitHub/app/src/app/app.component.js",
+		"/Users/epstarr/Documents/GitHub/app/src/app/app.module.js",
+		"/Users/epstarr/Documents/GitHub/app/src/app/app.component.ts",
+		"/private/var/folders/6s/ln2_xzhj5h55rmz_z34k4prmv6fm9b/T/fz3temp-1/meta-byline.php",
+		"/private/var/folders/6s/ln2_xzhj5h55rmz_z34k4prmv6fm9b/T/fz3temp-1/homepage.php",
+		"/Users/epstarr/Sites/parallax-template/index.html",
+		"/Users/epstarr/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/epstarr/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.5
+	},
+	"find_in_files":
+	{
+		"height": 92.5,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"specialid:",
+			"},",
+			"\"name\"",
+			"\"id\"",
+			"\"}",
+			"200",
+			"my-app",
+			"assistid:",
+			"1001",
+			"1000",
+			"assistid:",
+			"assistid",
+			"}",
+			"name",
+			"\"name\"",
+			"\"id\"",
+			"weapid",
+			"]},",
+			"\"mods\"",
+			"\"name\"",
+			"\"id\"",
+			"]}",
+			"HP:",
+			"atk:[17,",
+			"atk:[19,",
+			"atk:[18,",
+			"atk:[16,",
+			"atk:[22,",
+			"atk:[20,",
+			"atk:[21,",
+			"[,",
+			"\"res\":",
+			"\"def\":",
+			"spd:",
+			"atk:",
+			"\"speed\"",
+			"\"atk\"",
+			"\"HP\"",
+			"5\"",
+			"3\"",
+			"4\"",
+			"\"name\"",
+			"]}",
+			"[,",
+			"res:",
+			"def:",
+			"def",
+			"spd:",
+			"atk:",
+			"hp:",
+			"]}",
+			"\"res\"",
+			"\"def\"",
+			"\"speed\"",
+			"\"atk\"",
+			"\"HP\"",
+			"\"name\"",
+			"\"atk\"",
+			"\"name\"",
+			"\"HP\"",
+			"assets",
+			"article",
+			"meta-info",
+			"Posted",
+			"description",
+			"Description",
+			"text-ali",
+			"white",
+			"theme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"]},",
+			"res",
+			"def",
+			"spd",
+			"atk",
+			"\"atk\"",
+			"hp",
+			"name",
+			"atk",
+			"name",
+			"22,25,28],\"res\":[5,6,7,22,25,28]}\n{\"name\"",
+			"name",
+			"hp"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/app/heroes-complete.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13932,
+								13932
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4635.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/app/templates/hero.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5410,
+								5410
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 2106.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/app/components/hero.component.ts",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1519,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 260.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/app/hero-complete.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "src/app/assists.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"auto_name": "assists.ts",
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 63.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "duelcrest.sublime-project",
+	"replace":
+	{
+		"height": 63.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
