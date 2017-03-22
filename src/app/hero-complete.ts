@@ -9,4 +9,5 @@ export class HeroComplete {
 	weapid: number;
 	assistid: number;
 	specialid: number;
+	class: string;
 }

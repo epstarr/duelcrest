@@ -5,7 +5,8 @@
   </select>
   <div *ngIf="selectedHero1">  <!-- Show content only if selectedHero holds data -->
   <div class="hero-border">
-  <img src="../assets/images//heroes/Icon_Portrait_{{selectedHero1.name}}.png" class="hero-portrait img-responsive" width="122" height="122" />
+  <img class="hero-class-icon" src="../assets/images/Icon_{{selectedHero1.class}}.png" />
+  <img src="../assets/images/heroes/Icon_Portrait_{{selectedHero1.name}}.png" class="hero-portrait img-responsive" width="122" height="122" />
   </div>
   <div class="stat-background">
     <span class="stat hero-hpmin">{{selectedHero1.hp[1]}}</span>
@@ -30,6 +31,7 @@
   </select>
   <div *ngIf="selectedHero2">  <!-- Show content only if selectedHero holds data -->
   <div class="hero-border">
+  <img class="hero-class-icon" src="../assets/images/Icon_{{selectedHero2.class}}.png" />
   <img src="../assets/images/heroes/Icon_Portrait_{{selectedHero2.name}}.png" class="hero-portrait img-responsive" width="122" height="122" />
   </div>
   <div class="stat-background">
@@ -54,6 +56,7 @@
   </select>
   <div *ngIf="selectedHero3">  <!-- Show content only if selectedHero holds data -->
   <div class="hero-border">
+  <img class="hero-class-icon" src="../assets/images/Icon_{{selectedHero3.class}}.png" />
   <img src="../assets/images/heroes/Icon_Portrait_{{selectedHero3.name}}.png" class="hero-portrait img-responsive" width="122" height="122" />
   </div>
   <div class="stat-background">
@@ -78,6 +81,7 @@
   </select>
   <div *ngIf="selectedHero4">  <!-- Show content only if selectedHero holds data -->
   <div class="hero-border">
+  <img class="hero-class-icon" src="../assets/images/Icon_{{selectedHero4.class}}.png" />
   <img src="../assets/images/heroes/Icon_Portrait_{{selectedHero4.name}}.png" class="hero-portrait img-responsive" width="122" height="122" />
   </div>
   <div class="stat-background">

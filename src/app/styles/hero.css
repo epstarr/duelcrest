@@ -36,6 +36,9 @@ hero::before {
 	z-index: -1;
 	background-position-x: -5px;
 }*/
+.hero-border {
+	position: relative;
+}
 .hero-border::before {
     content: '';
     position: absolute;
@@ -43,6 +46,12 @@ hero::before {
     height: 127px;
     background-size: cover;
     background-image: url(../../assets/images/HeroGoldBanner.png);
+}
+.hero-class-icon {
+	position: absolute;
+	width: 40px;
+	left: -5px;
+	top: -5px;
 }
 .hero-select {
 	width: 100%;
