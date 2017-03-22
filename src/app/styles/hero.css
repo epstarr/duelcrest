@@ -36,8 +36,13 @@ hero::before {
 	z-index: -1;
 	background-position-x: -5px;
 }*/
-.hero-portrait {
-
+.hero-border::before {
+    content: '';
+    position: absolute;
+    width: 127px;
+    height: 127px;
+    background-size: cover;
+    background-image: url(../../assets/images/HeroGoldBanner.png);
 }
 .hero-select {
 	width: 100%;
@@ -50,6 +55,10 @@ hero::before {
 	background-repeat: no-repeat;
 	background-color: transparent;
 	border: none;
+}
+.hero-portrait {
+	max-width: 122px;
+	margin: 2px 0 0 2px;
 }
 .stat {
 	font-size: 18px;
